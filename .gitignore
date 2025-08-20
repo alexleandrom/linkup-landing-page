@@ -1,0 +1,49 @@
+# === Node / JS ===
+node_modules/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.eslintcache
+.stylelintcache
+.npm/
+.pnpm-store/
+
+# === Next.js / Build ===
+.next/
+.next/cache/
+.turbo/
+.swc/
+out/
+dist/
+build/
+.cache/
+coverage/
+.nyc_output/
+
+# === Env (mantenha um .env.example para referência) ===
+.env
+.env.*
+!.env.example
+
+# === Sistemas Operacionais ===
+.DS_Store
+Thumbs.db
+
+# === IntelliJ IDEA / JetBrains ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === (Opcional) VS Code — ignore se não usar
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# === Ferramentas de deploy ===
+.vercel/
+.netlify/
