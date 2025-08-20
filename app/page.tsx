@@ -14,16 +14,16 @@ export default function HomePage() {
               <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
                 <Zap className="h-5 w-5 text-primary-foreground" />
               </div>
-              <h1 className="text-2xl font-bold text-foreground font-sans">LINKUP</h1>
+              <h1 className="text-2xl font-bold text-foreground font-sans"><Link href="/">LINKUP</Link></h1>
             </div>
             <nav className="hidden md:flex items-center space-x-6">
-              <Link href="/discover" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                 Descobrir
               </Link>
-              <Link href="/influencers" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                 Influenciadores
               </Link>
-              <Link href="/companies" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                 Empresas
               </Link>
             </nav>

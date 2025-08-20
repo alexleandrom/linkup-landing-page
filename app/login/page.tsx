@@ -46,7 +46,9 @@ export default function LoginPage() {
               </Label>
               <Input id="password" type="password" placeholder="••••••••" className="font-serif" />
             </div>
-            <Button className="w-full font-serif">Entrar</Button>
+            <Button className="w-full font-serif">
+              <Link href="/dashboard">Entrar</Link>
+            </Button>
 
             <Separator />
 
