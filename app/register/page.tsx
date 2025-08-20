@@ -160,7 +160,7 @@ export default function RegisterPage() {
             </div>
 
             <Button className="w-full font-serif" size="lg">
-              Cadastrar Empresa
+              <Link href="/login">Cadastrar Empresa</Link>
             </Button>
 
             <Separator />
