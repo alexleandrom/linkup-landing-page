@@ -10,6 +10,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Bell, Search, Settings, LogOut, User, Zap } from "lucide-react"
+import Link from "next/link";
 
 export function DashboardHeader() {
   return (
@@ -62,7 +63,7 @@ export function DashboardHeader() {
               <DropdownMenuSeparator />
               <DropdownMenuItem className="font-serif">
                 <LogOut className="mr-2 h-4 w-4" />
-                <span>Sair</span>
+                <span><Link href="/">Sair</Link></span>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
