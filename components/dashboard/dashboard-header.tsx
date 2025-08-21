@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -61,9 +63,11 @@ export function DashboardHeader() {
                 <span>Configurações</span>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem className="font-serif">
-                <LogOut className="mr-2 h-4 w-4" />
-                <span><Link href="/">Sair</Link></span>
+              <DropdownMenuItem asChild className="w-full cursor-pointer">
+                <Link href="/" className="font-serif inline-flex items-center">
+                  <LogOut className="mr-2 h-4 w-4" />
+                  <span>Sair</span>
+                </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

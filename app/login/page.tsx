@@ -46,7 +46,7 @@ export default function LoginPage() {
               </Label>
               <Input id="password" type="password" placeholder="••••••••" className="font-serif" />
             </div>
-            <Button className="w-full font-serif">
+            <Button asChild className="w-full font-serif">
               <Link href="/dashboard">Entrar</Link>
             </Button>
 
@@ -60,7 +60,7 @@ export default function LoginPage() {
                 </Link>
               </p>
               <Link
-                href="/forgot-password"
+                href="/"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors font-serif"
               >
                 Esqueceu sua senha?
